@@ -157,42 +157,11 @@ def batch_save(new_generation, data_path, save_path):
 #####################################
 
 def number_fixer(n):
-    if n == 1:
-        return 1
-    elif n == 2:
-        return 10
-    elif n == 3:
-        return 11
-    elif n == 4:
-        return 12
-    elif n == 5:
-        return 13
-    elif n == 6:
-        return 14
-    elif n == 7:
-        return 15
-    elif n == 8:
-        return 16
-    elif n == 9:
-        return 17
-    elif n == 10:
-        return 2
-    elif n == 11:
-        return 3
-    elif n == 12:
-        return 4
-    elif n == 13:
-        return 5
-    elif n == 14:
-        return 6
-    elif n == 15:
-        return 7
-    elif n == 16:
-        return 8
-    elif n == 17:
-        return 9
-    else:
-        return 100
+    number_map = {
+        1: 1, 2: 10, 3: 11, 4: 12, 5: 13, 6: 14, 7: 15, 8: 16, 9: 17,
+        10: 2, 11: 3, 12: 4, 13: 5, 14: 6, 15: 7, 16: 8, 17: 9
+    }
+    return number_map.get(n, 100)
 
 
 def predict(model_path, batch_path):
