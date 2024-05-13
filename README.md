@@ -1,8 +1,11 @@
 # 2nd ELTE - Bosch Programming Contest
-This is my trained model for the competition
+This repo contains my trained model for the competition
 
+First I started by visualising the data that had to be categorized
 
-![](https://i.imgur.com/YM9gDNZ.gif)
+![Camera data](https://i.imgur.com/YM9gDNZ.gif)
+![Lidar sensors](https://i.imgur.com/y89POEr.gif)
+
 
 
 
