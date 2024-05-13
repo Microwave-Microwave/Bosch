@@ -2,7 +2,7 @@
 This is my trained model for the competition
 
 
-![](https://i.imgur.com/CwWPply.mp4)
+![](https://i.imgur.com/YM9gDNZ.gif)
 
 
 
